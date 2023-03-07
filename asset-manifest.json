@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-auto-github/static/css/main.f255d512.css",
+    "main.js": "/my-auto-github/static/js/main.aba036e7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-auto-github/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/my-auto-github/index.html",
+    "main.f255d512.css.map": "/my-auto-github/static/css/main.f255d512.css.map",
+    "main.aba036e7.js.map": "/my-auto-github/static/js/main.aba036e7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-auto-github/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f255d512.css",
+    "static/js/main.aba036e7.js"
+  ]
+}
