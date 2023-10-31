@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Gettingalldatas = ({}) => {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
+  /*useEffect(() => {
     async function fetchData() {
       try {
         const response = await fetch('https://george1994grandmaster.github.io/postman-test/test.json');
@@ -20,7 +20,7 @@ const Gettingalldatas = ({}) => {
     }
 
     fetchData(); // Call the fetchData function when the component mounts
-  }, []);
+  }, []);*/
 
   return (
     <div>

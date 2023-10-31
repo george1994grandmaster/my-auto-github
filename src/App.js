@@ -15,6 +15,7 @@ const App = () => {
 
 	return (
 		<div>
+			fgfffgfgf
 			<BrowsGettingalldatas/>
 		</div>
 	)
