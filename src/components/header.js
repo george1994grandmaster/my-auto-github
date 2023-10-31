@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import shoppingCartImage from '../assets/img/shopping-cart.png';
 
 const HeaderComponent = ({quantity}) => {
 
@@ -14,7 +15,7 @@ const HeaderComponent = ({quantity}) => {
 					</h1>
 					<div className="cart-btn-content">
 						<Link to="/cart" className="cart-btn">
-							<img src="./img/shopping-cart.png" alt="cart"/>
+							<img src={shoppingCartImage} alt="cart"/>
 						</Link>
 						<span>
 							{quantity > 0 && quantity}

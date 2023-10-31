@@ -1,3 +1,5 @@
+import deleteBtn from '../assets/img/delete.png';
+
 const Cart = ({cartItems, removeFromCart, increase, decrease, clearCart}) => {
   let total = 0;
 	
@@ -32,7 +34,7 @@ const Cart = ({cartItems, removeFromCart, increase, decrease, clearCart}) => {
 										</div>
 										<div className="btn-remove-container">
 											<button onClick={() => removeFromCart(cartItem)}>
-												<img src="./img/delete.png" alt="delete"/>
+												<img src={deleteBtn} alt="delete"/>
 											</button>
 										</div>
 									</div>
@@ -47,7 +49,7 @@ const Cart = ({cartItems, removeFromCart, increase, decrease, clearCart}) => {
 						<div className="d-flex ai-center">
 							<span>CLEAR CART:</span>
 							<button className="cart-btn" onClick={() => clearCart()} >
-								<img src="./img/delete.png" alt="delete"/>
+								<img src={deleteBtn} alt="delete"/>
 							</button>
 						</div>
 					</div>
