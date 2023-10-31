@@ -25,15 +25,7 @@ const Gettingalldatas = ({}) => {
   return (
     <div>
       <h1>Testing React App</h1>
-      <ul>
-        {data.map((item) => (
-          <li key={item.id}>
-            <p>ID: {item.id}</p>
-            <p>Name: {item.name}</p>
-            <p>Position: {item.position}</p>
-          </li>
-        ))}
-      </ul>
+      
     </div>
   );
 }
